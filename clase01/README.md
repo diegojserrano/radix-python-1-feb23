@@ -9,7 +9,7 @@
   
 ## Material
 
-* [Resumen](https://www.xmind.net/m/2gCWxr)
+* [Resumen](https://www.xmind.net/m/f4mMaU)
 
 * [Clase completa (YouTube)](https://youtu.be/2bk4XWN-ng4)
 
