@@ -20,4 +20,10 @@
 
 * En un negocio venden dos articulos, de cada uno se sabe nombre, precio unitario y cantidad. Se necesita un programa que cargue los datos del cliente y de los dos articulos y muestre la factura.  Al subtotal hay que calcularle un 21% de IVA y mostrar el subtotal, el impuesto y el total a pagar
 
-* Ingresar un número entero y mostrar su tabla de multiplicar (únicamente utilizar los elementos del lenguaje correspondientes a esta clase)
+* Ingresar un número entero y mostrar su tabla de multiplicar (únicamente utilizar los elementos del lenguaje correspondientes a esta clase) 
+```
+  6 x 0  = 0
+  6 x 1 =  6
+  ...
+  6 x 10 = 60
+```

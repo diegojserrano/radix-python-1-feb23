@@ -12,6 +12,6 @@ En este curso se presenta el lenguaje Python y las herramientas que ofrece para 
 
 ## Clases
 
-### [Clase 1: Introducción](/clase01/README.md)
+### [Clase 1: Introducción](/clase01/)
 
-### [Clase 2: Entrada/salida. Operaciones](/clase02/README.md)
+### [Clase 2: Entrada/salida. Operaciones](/clase02/)
