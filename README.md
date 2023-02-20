@@ -1,4 +1,4 @@
-# Curso de programación con Node.js
+# Curso de programación inicial con Python 
 
 ## Objetivo
 
