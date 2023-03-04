@@ -1,29 +1,73 @@
-# Clase 03: Estructuras condicionales
+# Clase 04: Estructuras repetitivas. Ciclo exacto
 
 ## Temario
     
-* Estructuras condicionales
-* Instrucción if
+* Estructuras repetitivas
+* Tipos de ciclos
+* Instrucción for
+* Contadores y acumuladores
   
 ## Material
 
-* [Resumen](https://www.xmind.net/m/q6L65p)
+* [Resumen](https://www.xmind.net/m/Y3f79n)
 
-* [Grabación parte 1 (YouTube)](https://youtu.be/ayFwYEbZNM0)
-* [Grabación parte 2 (YouTube)](https://youtu.be/XVCZsCA7fZg)
+* [Clase completa (YouTube)](https://youtu.be/ScV6HiC44Lc)
 
 ## Ejercicios 
 
-* Modificar la calculadora de la clase 2 para evitar el error de división por cero [Solución](./calculadora.py)
-* Ingresar tres números por teclado e informar el mayor de ellos. [Solución](./mayor3.py)
+* Usando ciclo for presentar al usuario las siguientes secuencias: [Solución](./numeros.py)
+  * Todos los números del 1 al 10 inclusive
+  * Mostrar todos números desde -10 a 10 inclusive
+  * Mostrar todos los pares entre 1 y 21
+* Ingresar un número por teclado y mostrar su tabla de multiplicar [Solución](./tabla.py)
+
+* Dibujar con un solo print cada una de las siguientes figuras: [Solución](.figuras.py)
+  * Figura 1
+```
+# *
+# **
+# ***
+# ****
+# *****
+# ******
+```
+  * Figura 2
+```
+# ******
+# *****
+# ****
+# ***
+# **
+# *
+#
+```
+  * Figura 3
+```
+#       *
+#      **
+#     ***
+#    ****
+#   *****
+#  ******
+#
+```
+
+* Ingresar un texto, mostrar todas las minúsculas del mismo. De esta manera, si el usuario ingresa "Juan" el programa debe mostrar [Solución](./minusculas.py):
+```
+u
+a
+n
+```
+* Ingresar una cantidad de días y luego la temperatura de cada uno de los días. Calcular y mostrar [Solución](./temperaturas.py):
+   * Cantidad de días con temperatura menor a 10
+   * Cantidad de días con temperatura mayor a 30
+   * Promedio de todas las temperaturas
+
 
 ## Tarea
 
-* Un comercio necesita informar el importe final a pagar a un  determinado proveedor. Para ello debe ingresar la categoría
-(que puede ser categoría ’A’ o ’B’) y el importe original a abonar. Considerar las siguientes condiciones para el cálculo del importe final a pagar:
-  * Si el cliente es categoría A y el monto a pagar supera a los 1000 pesos debe aplicarse un descuento del 5%.
-  * Si el cliente es categoría B y el importe a pagar oscila entre 1500 y 2500 pesos debe aplicarse un descuento del 2%.
-  * Para ambas categorías en caso de no cumplirse las condiciones especificadas no se aplicará ningún tipo de descuento sobre el importe que se le debe abonar.
-
-* Se necesita desarrollar un programa para el área de recursos humanos de  una empresa que permita informar el jornal de un determinado operario. Usted deberá cargar por teclado el código de turno que el operario trabajó ese día (1- representa Diurno y 2- representa Nocturno) y la cantidad de horas trabajadas. La política de trabajo en la empresa es que los operarios de la misma pueden trabajar en el turno # diurno o nocturno. Si un operario trabaja  en el turno nocturno el pago es 406 pesos la hora, si lo
-hace en el turno diurno cobra 355 pesos la hora.
+* Ingresar una cantidad de jugadas de una ruleta y a continuación todos los números que salieron. Si se ingresa un número fuera de rango (0 a 36 inclusive) mostrar un mensaje de error. Calcular y mostrar
+   * Cantidad de veces que salió 0
+   * Cantidad de pares y de impares (el 0 no tiene paridad)
+   * Cantidad de veces que salió cada docena (1 a 12, 13 a 24 y 25 a 36)
+   * Porcentaje de menores (1 a 18 inclusive) sobre el total de tiradas válidas incluyendo el 0
