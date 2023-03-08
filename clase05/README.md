@@ -31,7 +31,8 @@
 * Un comercio tiene a la venta varios tipos de productos. Se tiene la información
 de las ventas realizadas en un cierto período y se desea realizar un programa que ingrese
 por teclado el código de cada artículo, el tipo de cada uno (puede ser 1, 2 o 3) y el importe
-de las ventas totales realizadas para ese artículo. El dueño del comercio necesita:
+de las ventas totales realizadas para ese artículo. El final de la carga se indica con código de artículo 
+igual a 0. El dueño del comercio necesita:
   * Cuál es el código del artículo que mayor importe tuvo, indicando además el tipo y el importe.
   * El importe total vendido por cada tipo (son tres totales)
   * La cantidad de artículos de cada tipo (tres totales)
