@@ -1,4 +1,4 @@
-# Clase 04: Estructuras repetitivas. Ciclo exacto
+# Clase 05: Estructuras repetitivas. Ciclo 0-n
 
 ## Temario
     
