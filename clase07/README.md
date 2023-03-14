@@ -1,4 +1,4 @@
-# Clase 06: Módulos
+# Clase 07: Módulos
 
 ## Temario
     
