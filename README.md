@@ -23,3 +23,5 @@ En este curso se presenta el lenguaje Python y las herramientas que ofrece para 
 ### [Clase 5: Estructuras repetitivas. Ciclo 0-n](/clase05/)
 
 ### [Clase 6: Funciones](/clase06/)
+
+### [Clase 7: Módulos](/clase07/)
