@@ -25,3 +25,5 @@ En este curso se presenta el lenguaje Python y las herramientas que ofrece para 
 ### [Clase 6: Funciones](/clase06/)
 
 ### [Clase 7: Módulos](/clase07/)
+
+### [Clase 8: Archivos de texto](/clase08/)
