@@ -31,8 +31,3 @@ comprado se ingresa un importe. Calcular e imprimir:
    * Recalcular el total sabiendo que el super descuenta 5% de cada artículo
      cuyo subtotal es mayor a $3000
    * Existe algún artículo con importe menor a $200? Informar con "SI" o "NO"
-
-* Del archivo de números informar cuántos números contiene por cada dígito final:
-cuántos terminan en 0, cuántos en 1, etc. (son 10 totales). Ayuda: el ultimo dígito 
-se empieza a obtener dividiendo en 10 y vamos a necesitar 10 contadores (o una lista de 10 casilleros)
-

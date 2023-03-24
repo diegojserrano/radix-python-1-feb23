@@ -29,3 +29,5 @@ En este curso se presenta el lenguaje Python y las herramientas que ofrece para 
 ### [Clase 8: Archivos de texto](/clase08/)
 
 ### [Clase 9: Listas (parte 1)](/clase09/)
+
+### [Clase 10: Listas (parte 2)](/clase10/)
