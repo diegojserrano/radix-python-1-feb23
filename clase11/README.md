@@ -11,7 +11,7 @@
 
 ## Ejercicios 
 
-* Cargar en una lista los números que salieron en una noche de una mesa de ruleta. Para ello generar al azar la cantidad de jugadas y luego generar también al azar el resultado de todas esas jugadas.
+* Cargar en una lista los números que salieron en una noche de una mesa de ruleta. Para ello generar al azar la cantidad de jugadas y luego generar también al azar el resultado de todas esas jugadas. [Solución](./ruleta.py)
 * Calcular y mostrar:
    * Cantidad de veces que salió 0
    * Cantidad de pares y de impares (el 0 no tiene paridad)
