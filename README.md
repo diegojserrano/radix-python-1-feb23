@@ -31,3 +31,7 @@ En este curso se presenta el lenguaje Python y las herramientas que ofrece para 
 ### [Clase 9: Listas (parte 1)](/clase09/)
 
 ### [Clase 10: Listas (parte 2)](/clase10/)
+
+### [Clase 11: Comprensión y Aleatorios](/clase11/)
+
+### [Clase 12: Conjuntos](/clase12/)
