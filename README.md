@@ -35,3 +35,5 @@ En este curso se presenta el lenguaje Python y las herramientas que ofrece para 
 ### [Clase 11: Comprensión y Aleatorios](/clase11/)
 
 ### [Clase 12: Conjuntos](/clase12/)
+
+### [Clase 13: Diccionarios](/clase13/)

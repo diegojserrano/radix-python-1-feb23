@@ -43,3 +43,28 @@ print(pe_ca)
 # cargar el archivo de inscriptos en un conjunto de numeros
 # generar un nuevo diccionario con los documentos y nombres de los inscriptos
 
+archivo_inscriptos = open("inscriptos.txt","rt")
+
+inscriptos = {int(linea) for linea in archivo_inscriptos.readlines()}
+
+archivo_inscriptos.close()
+
+documentos_inscriptos =  plantel.keys() & inscriptos
+print("Documentos", len(documentos_inscriptos),documentos_inscriptos)
+
+personas_inscriptas = {doc: plantel[doc] for doc in documentos_inscriptos}
+print("Inscriptos", personas_inscriptas )
+
+#### Alternativa sin comprensiones ni operaciones de conjuntos
+archivo_inscriptos = open("inscriptos.txt","rt")
+personas_inscriptas = dict()
+
+while True:
+    linea = archivo_inscriptos.readline()
+    if linea == "": break
+    doc = int(linea)
+    if doc in plantel:
+        personas_inscriptas[doc] = plantel[doc]
+
+archivo_inscriptos.close()
+print("Inscriptos", personas_inscriptas )
