@@ -37,3 +37,8 @@ En este curso se presenta el lenguaje Python y las herramientas que ofrece para 
 ### [Clase 12: Conjuntos](/clase12/)
 
 ### [Clase 13: Diccionarios](/clase13/)
+
+### [Clase 14: Diccionarios (continuación)](/clase14/)
+
+### [Clase 15: Archivos CSV](/clase15/)
+

@@ -1,4 +1,10 @@
 
+def apellido(persona):
+    return persona["apellido"]
+
+def apellido_nombre(persona):
+    return persona["apellido"] + ", " + persona["nombre"]
+
 def crear_persona(documento, nombre, apellido, edad):
     nueva_persona = dict()
 
@@ -7,12 +13,6 @@ def crear_persona(documento, nombre, apellido, edad):
     nueva_persona["apellido"] = apellido
     nueva_persona["edad"] = edad
     return nueva_persona
-
-def apellido(persona):
-    return persona["apellido"]
-
-def apellido_nombre(persona):
-    return persona["apellido"] + ", " + persona["nombre"]
 
 plantel = dict()
 

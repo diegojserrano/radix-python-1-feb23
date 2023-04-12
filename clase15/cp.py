@@ -67,7 +67,17 @@ encontradas = sorted([l for l in todas if provincia(l) == prov], key=numero)
 listar_localidades(encontradas)
 # Ingresar un texto y mostrar todas las localidades cuyo nombre incluya dicho texto, ordenadas por provincia y nombre
 buscada = input("Ingrese un nombre para buscar: ")
-encontradas = sorted([l for l in todas if buscada in nombre(l)], key=prov_nombre)
+
+# Alternativa secuencial
+encontradas = []
+for l in todas:
+    if buscada in nombre(l):
+        encontradas.append(l)
+encontradas = sorted(encontradas, key=prov_nombre)
+
+# Alternativa con comprensión
+#encontradas = sorted([l for l in todas if buscada in nombre(l)], key=prov_nombre)
+
 listar_localidades(encontradas)
 nombre_archivo = buscada + ".csv"
 grabar_localidades(nombre_archivo, encontradas)
