@@ -42,3 +42,4 @@ En este curso se presenta el lenguaje Python y las herramientas que ofrece para 
 
 ### [Clase 15: Archivos CSV](/clase15/)
 
+### [Clase 16: Cierre](/clase16/)
